@@ -1,4 +1,5 @@
 from activity.activity import typing_time
+import pytest
 
 def test_latin_ordering_same_letters_returns_0():
     typed_time = typing_time("abcdefghijklmnopqrstuvwxyz", "aaaaa")
